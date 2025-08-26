@@ -17,7 +17,7 @@
 </head>
 
 <body class="antialiased">
-    {{-- @include('layouts.header') --}}
+    @include('layouts.header')
 
     <div>
         @yield('content')
